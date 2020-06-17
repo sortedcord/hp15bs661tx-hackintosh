@@ -1,5 +1,7 @@
 # hp15bs661tx-hackintosh
+
 Using OpenCore and installing MACOS Cataline (1.15.3)
+
 ##Specs
 Processer- Intel® Core i3-6006U (2 GHz, 3 MB cache, 2 cores) [SKYLAKE]
 
