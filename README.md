@@ -2,7 +2,7 @@
 
 Using OpenCore and installing MACOS Cataline (1.15.3)
 
-##Specs
+## Specs
 Processer- Intel® Core i3-6006U (2 GHz, 3 MB cache, 2 cores) [SKYLAKE]
 
 RAM - 8 GB DDR4-2133 SDRAM (1 x 8 GB)
