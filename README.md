@@ -15,9 +15,16 @@ HardDrive-1 TB 5400 rpm SATA
 
 ## What all does not work
 Hardware Acceleration - You only get 7mb of VRAM for Intel HD 520 (Skylake)
+
 Sleep/Wake Function
+
 Wifi
+
 Ethernet
+
 Bluetooth
+
 HDMI Output to an External Monitor
+
 Sound Volume is very low Unless you are using headphones.
+
