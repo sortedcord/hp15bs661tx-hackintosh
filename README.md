@@ -19,8 +19,6 @@ Sleep/Wake Function
 
 Wifi
 
-Ethernet
-
 Bluetooth
 
 HDMI Output to an External Monitor
