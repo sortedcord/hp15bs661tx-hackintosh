@@ -119,11 +119,11 @@
 			<key>Vectorize</key>
 			<true/>
 			<key>VoodooHDAEnableHalfMicVolumeFix</key>
-			<true/>
+			<false/>
 			<key>VoodooHDAEnableHalfVolumeFix</key>
 			<true/>
 			<key>VoodooHDAEnableMuteFix</key>
-			<false/>
+			<true/>
 			<key>VoodooHDAEnableVolumeChangeFix</key>
 			<false/>
 			<key>VoodooHDAVerboseLevel</key>

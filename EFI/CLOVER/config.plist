@@ -194,7 +194,7 @@
 		<key>Arguments</key>
 		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi npci=0x2000</string>
 		<key>CustomLogo</key>
-		<string>Alternate</string>
+		<string>None</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>

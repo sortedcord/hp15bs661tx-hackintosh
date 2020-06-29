@@ -1,6 +1,6 @@
 # hp15bs661tx-hackintosh
 
-Using OpenCore and installing MACOS Cataline (1.15.3)
+Using OpenCore and installing MACOS Mojave (1.14.5)
 
 ## Specs
 Processer- Intel® Core i3-6006U (2 GHz, 3 MB cache, 2 cores) [SKYLAKE]
@@ -15,8 +15,6 @@ HardDrive-1 TB 5400 rpm SATA
 
 ## What all does not work
 
-Sleep/Wake Function
-
 Wifi
 
 Bluetooth
@@ -25,3 +23,4 @@ HDMI Output to an External Monitor
 
 Sound Volume is very low Unless you are using headphones.
 
+Brightness
