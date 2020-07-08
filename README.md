@@ -19,8 +19,5 @@ Wifi
 
 Bluetooth
 
-HDMI Output to an External Monitor
-
-Sound Volume is very low Unless you are using headphones.
 
 Brightness
