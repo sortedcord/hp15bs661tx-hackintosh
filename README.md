@@ -18,5 +18,5 @@ HardDrive-1 TB 5400 rpm SATA
 Wifi
 
 Bluetooth
-Magic Trackpad Gestures, Custom Gestures work.
-Brightness
+
+Touchpad Buttons. (Pointer and native gestures work)
