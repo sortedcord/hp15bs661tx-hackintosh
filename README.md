@@ -1,6 +1,6 @@
 # hp15bs661tx-hackintosh
 
-Using OpenCore and installing MACOS Mojave (1.14.5)
+Using Clover and installing MACOS Mojave (1.14.5)
 
 ## Specs
 Processer- Intel® Core i3-6006U (2 GHz, 3 MB cache, 2 cores) [SKYLAKE]
