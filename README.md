@@ -15,7 +15,7 @@ HardDrive-1 TB 5400 rpm SATA
 
 ## What all does not work
 
-Wifi
+Wifi (Includes airdrop)
 
 Bluetooth
 
