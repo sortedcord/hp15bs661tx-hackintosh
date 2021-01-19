@@ -19,5 +19,3 @@ Wifi (Includes airdrop)
 
 Bluetooth
 
-Touchpad Buttons. (Pointer and native gestures work)
-(You can use applesmarttouchpad kext with it, it works fine or you can use a usb mouse)
