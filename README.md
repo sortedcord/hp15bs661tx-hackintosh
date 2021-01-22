@@ -1,21 +1,18 @@
-# hp15bs661tx-hackintosh
+# Hp 15bs 661tx Opencore EFI
+The long awaited update to this repository has finally arrived. I have moved on to Open Core from Clover and you should do that too. Open core feels much more efficient even though it takes some time to understand. But, nevertheless I was able to install Catalina 1.15.7 on this laptop.
 
-Using Clover and installing MACOS Mojave (1.14.5)
+## Specifications
+CPU: Intel i3 6th Gen (Skylake)
 
-## Specs
-Processer- Intel® Core i3-6006U (2 GHz, 3 MB cache, 2 cores) [SKYLAKE]
+iGPU: Intel HD 520
 
-RAM - 8 GB DDR4-2133 SDRAM (1 x 8 GB)
+dGPU: Radeon 520 (Disabled)
 
-Dedicated GPU- AMD Radeon 520 Graphics (2 GB DDR3 dedicated)
+RAM: 8GB
 
-Integrated - Intel HD 520 
+## What all does not work as of now
+Touchpad Buttons (Idk its happening again)
 
-HardDrive-1 TB 5400 rpm SATA
+Ethernet (Might have to downgrade a few kernel extensions)
 
-## What all does not work
-
-Wifi (Includes airdrop)
-
-Bluetooth
-
+Wifi & Bluetooth (Either replace the Realtek one inside or u use an external one. The one it was shipped with was crappy af anyways)
