@@ -11,8 +11,9 @@ dGPU: Radeon 520 (Disabled)
 RAM: 8GB
 
 ## What all does not work as of now
-Touchpad Buttons (Idk its happening again)
-
-Ethernet (Might have to downgrade a few kernel extensions)
 
 Wifi & Bluetooth (Either replace the Realtek one inside or u use an external one. The one it was shipped with was crappy af anyways)
+
+# Old versions-
+
+MacOSX Mojave - 1.14.6 https://github.com/sortedcord/hp15bs661tx-hackintosh/tree/mojave-1.14.6
