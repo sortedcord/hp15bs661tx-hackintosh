@@ -18,9 +18,9 @@ RAM: 8GB
 
 Wifi & Bluetooth (Either replace the Realtek one inside or u use an external one. The one it was shipped with was crappy af anyways)
 
-```
+`
 For Networking I am mainly reliant on Ethernet and the USB WIFI dongle that I have of D-Link. Fortunately it supports Catalina (Haven't tested on Big Sur yet) but it only supports the ban standard and not ac so that's a downside. There is no way to enable bluetooth right now as I don't have a bluetooth dongle right now :(
-```
+`
 
 # Old versions-
 MacOSX Catalina - 1.15.7 https://github.com/sortedcord/hp15bs661tx-hackintosh/tree/catalina-1.15.7
