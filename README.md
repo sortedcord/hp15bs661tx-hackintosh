@@ -33,15 +33,53 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | Touchpad  | Synaptics SMBus Touchpad with multi-touch gesture support |
 | Battery Type | 4-cell, 41 Wh Li-ion |
 
-## What all does not work as of now
+## Status
 
-Wifi & Bluetooth (Either replace the Realtek one inside or u use an external one. The one it was shipped with was crappy af anyways)
+### Working
 
-`
+- [x] Keyboard (including all media keys except for brightness)
+- [x] Battery indicator
+- [x] Audio
+- [x] Ethernet
+- [x] iCloud services - iMessage, FaceTime, AppStore
+- [x] GPU acceleration
+- [x] Camera
+- [x] Microphone
+- [x] Mac-like booting interface for multiboot
+- [x] Sleep/wake
+- [x] Trackpad and gestures
+- [x] HDMI video and audio up to 4k
+
+
+### Working, sort of
+
+- [ ] Native CPU power management. It seems that Mac OS Drains more battery than windows. Though not officially tested yet.
+
+### Not Working at the moment
+- [ ] Wifi
+- [ ] Bluetooth
+- [ ] Display auto brightness
+- [ ] Handoff, continuity
+- [ ] AirPlay
+
+### Not Tested
+
+- [ ] Sidecar
+- [ ] FileVault
+- [ ] DRM content playback (Netflix, Apple TV+)
+
 For Networking I am mainly reliant on Ethernet and the USB WIFI dongle that I have of D-Link. Fortunately it supports Catalina (Haven't tested on Big Sur yet) but it only supports the ban standard and not ac so that's a downside. There is no way to enable bluetooth right now as I don't have a bluetooth dongle right now :(
-`
+
 
 # Old versions-
 MacOSX Catalina - 1.15.7 https://github.com/sortedcord/hp15bs661tx-hackintosh/tree/catalina-1.15.7
 
 MacOSX Mojave - 1.14.6 https://github.com/sortedcord/hp15bs661tx-hackintosh/tree/mojave-1.14.6
+
+## CREDITS
+
+- [Acidanthera](https://github.com/acidanthera)
+- [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [Rehabman's battery patch guide](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/) and [Rehabman's ACPI hotpatching guide](https://www.tonymacx86.com/threads/guide-using-clover-to-hotpatch-acpi.200137/)
+- [CorpNewt's tools](https://github.com/corpnewt)
+- [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI)
