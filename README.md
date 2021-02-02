@@ -1,4 +1,5 @@
 # Hp 15bs661tx Opencore EFI [Supports Big Sur]
+[![discord](https://img.shields.io/discord/696696149301657640?color=7289DA&label=chat&logo=discord&logoColor=ffffff&style=for-the-badge)](https://discord.gg/ppMWqtmu2c)
 ![Hp Latpop Snapshot](https://github.com/sortedcord/hp15bs661tx-hackintosh/blob/master/Docs/Laptop.png)
 ### Status: WIP
 
