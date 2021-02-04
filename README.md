@@ -1,7 +1,7 @@
 # Hp 15bs661tx Opencore EFI [Supports Big Sur]
 [![discord](https://img.shields.io/discord/696696149301657640?color=7289DA&label=chat&logo=discord&logoColor=ffffff&style=for-the-badge)](https://discord.gg/ppMWqtmu2c)
 ![Hp Latpop Snapshot](https://github.com/sortedcord/hp15bs661tx-hackintosh/blob/master/Docs/Laptop.png)
-### Status: WIP
+### Status: Complete
 
 This repo contains information for getting macOS 11 Big Sur working on a HP 15bs-661tx Notwbook Laptop
 
@@ -17,7 +17,7 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | Component     | Version      |
 | ------------- | ------------ |
 | macOS version | 11.1 (20C69) |
-| OpenCore      | 0.6.5        |
+| OpenCore      | 0.6.6        |
 
 ## Hardware Info
 
@@ -34,6 +34,34 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | Touchpad  | Synaptics SMBus Touchpad with multi-touch gesture support |
 | Battery Type | 4-cell, 41 Wh Li-ion |
 
+## Kexts
+
+| Kext                   | Version     | Remark                                   |
+| ---------------------- | ----------- | ---------------------------------------- |
+| AppleALC               | 1.5.7       | Fixes onboard audio                      |
+| Lilu                   | 1.5.1       | Kext patcher                             |
+| SMCBatteryManager      | 1.2.0       | Battery indicator                        |
+| SMCLightSensor         | 1.2.0       | Ambient light sensor                     |
+| SMCProcessor           | 1.2.0       | CPU temp monitoring                      |
+| SMCSuperIO             | 1.2.0       | Monitor fan speed, not working           |
+| VirtualSMC             | 1.2.0       | SMC chip emulation                       |
+| VoodooRMI              | 1.3.3       | Trackpad driver                          |
+| VoodooSMBUS            | 3.2         | SMBUS driver                             |
+| VoodooPS2Controller    | 2.2.1       | Enable keyboard                          |
+| WhateverGreen          | 1.4.7       | Graphics                                 |
+| RealtekRTL8111         | 1.6.6            | Ethernet
+
+## ACPI patches
+
+All of the following SSDT's have been manually compiled by me such that they improve performance and boot time. *These will not work for other laptops.*
+
+| Patch                 | Remark                         |
+| --------------------- | ------------------------------ |
+| SSDT-GPIO             | Trackpad fix                   |
+| SSDT-PLUG             | x86 plugin injection fix       |
+| SSDT-PNLF             | Backlight fix                  |
+| SSDT-EC-USBX          | USBX patch                     |
+| SSDT-dGPU-Off         | Disabled Radeon Discrete Graphics|
 ## Status
 
 ### Working
