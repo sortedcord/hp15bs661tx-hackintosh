@@ -23,16 +23,16 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 
 | Component | Model                                   |
 | --------- | --------------------------------------- |
-| CPU       | Intel® Core™ i3-6006U (2 GHz, 3 MB cache, 2 cores) |
-| Memory    | 8 GB DDR4-2133 SDRAM (1 x 8 GB)         |
-| Video Graphics [`DGPU`] | AMD Radeon™ 520 Graphics (2 GB DDR3 dedicated) |
-| Storage   | Toshiba 1 TB 5400 rpm SATA              |
-| Display   | 39.62 cm(15.6) diagonal FHD SVA anti-glare WLED-backlit (1920 x 1080)|
-| GPU [`iGPU`] | Intel HD 520                        |
-| Camera    | HP TrueVision HD Camera with integrated digital microphone |
-| WLAN      | Realtek RTL8723DE 802.11b/g/n (1x1) and Bluetooth® 4.0 combo |
-| Touchpad  | Synaptics SMBus Touchpad with multi-touch gesture support |
-| Battery Type | 4-cell, 41 Wh Li-ion |
+| CPU                           | Intel® Core™ i3-6006U (2 GHz, 3 MB cache, 2 cores)                    |
+| Memory                        | 8 GB DDR4-2133 SDRAM (1 x 8 GB)                                       |
+| Video Graphics [`DGPU`]       | AMD Radeon™ 520 Graphics (2 GB DDR3 dedicated)                        |
+| Storage                       | Toshiba 1 TB 5400 rpm SATA                                            |
+| Display                       | 39.62 cm(15.6) diagonal FHD SVA anti-glare WLED-backlit (1920 x 1080) |
+| GPU [`iGPU`]                  | Intel HD 520                                                          |
+| Camera                        | HP TrueVision HD Camera with integrated digital microphone            |
+| WLAN                          | Realtek RTL8723DE 802.11b/g/n (1x1) and Bluetooth® 4.0 combo          |
+| Touchpad                      | Synaptics SMBus Touchpad with multi-touch gesture support             |
+| Battery Type                  | 4-cell, 41 Wh Li-ion                                                  |
 
 ## Kexts
 
@@ -49,7 +49,8 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | VoodooSMBUS            | 3.2         | SMBUS driver                             |
 | VoodooPS2Controller    | 2.2.1       | Enable keyboard                          |
 | WhateverGreen          | 1.4.7       | Graphics                                 |
-| RealtekRTL8111         | 1.6.6            | Ethernet
+| RealtekRTL8111         | 1.6.6       | Ethernet                                 |
+| BrightnessKeys         | 1.0.1       | Fixes Brighness function keys            | 
 
 ## ACPI patches
 
@@ -78,6 +79,7 @@ All of the following SSDT's have been manually compiled by me such that they imp
 - [x] Sleep/wake
 - [x] Trackpad and gestures
 - [x] HDMI video and audio up to 4k
+- [x] Brightness keys without pressing `fn` key
 
 
 ### Working, sort of
