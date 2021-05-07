@@ -1,7 +1,7 @@
 # Hp 15bs661tx Opencore EFI [Supports Big Sur]
 [![discord](https://img.shields.io/discord/696696149301657640?color=7289DA&label=chat&logo=discord&logoColor=ffffff&style=for-the-badge)](https://discord.gg/ppMWqtmu2c)
 ![Hp Latpop Snapshot](https://github.com/sortedcord/hp15bs661tx-hackintosh/blob/master/Docs/HP-Image.png)
-### Status: Complete
+### Status: Complete [With Occasional Updates]
 
 This repo contains information for getting macOS 11 Big Sur working on a HP 15bs-661tx Notwbook Laptop
 
