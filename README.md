@@ -1,6 +1,16 @@
 # Hp 15bs661tx Opencore EFI [Supports Big Sur]
 [![discord](https://img.shields.io/discord/696696149301657640?color=7289DA&label=chat&logo=discord&logoColor=ffffff&style=for-the-badge)](https://discord.gg/KP5kAGjqVF)
 ![Hp Latpop Snapshot](https://github.com/sortedcord/hp15bs661tx-hackintosh/blob/master/Docs/HP-Image.png)
+
+### Where is Opencore 0.7.0?
+
+I was busy with other projects so I couldn't find time to update it. So right now you are stuck with the package I have provided in the releases section, but worry not, I have already started working on it. And instead of simply updating it, I have decided to redo the entire configuration. That would make it less buggy, more efficient and clean.
+
+So for now I guess you have to wait. Although if you are able to, Pull Requests are always welcomed :)
+
+**NOTE**: I will not be doing a Monterrey update is its really early right now, so its better to stick with Big Sur, although if you wanted to test it out, you can always do so and share the experience...
+
+
 ### Status: Complete [With Occasional Updates]
 
 This repo contains information for getting macOS 11 Big Sur working on a HP 15bs-661tx Notwbook Laptop
