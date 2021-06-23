@@ -48,12 +48,12 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | Kext                   | Version     | Remark                                   |
 | ---------------------- | ----------- | ---------------------------------------- |
 | AppleALC               | 1.6.1       | Fixes onboard audio                      |
-| Lilu                   | 1.5.1       | Kext patcher                             |
+| Lilu                   | 1.5.3       | Kext patcher                             |
 | SMCBatteryManager      | 1.2.0       | Battery indicator                        |
 | SMCLightSensor         | 1.2.0       | Ambient light sensor                     |
 | SMCProcessor           | 1.2.0       | CPU temp monitoring                      |
 | SMCSuperIO             | 1.2.0       | Monitor fan speed, not working           |
-| VirtualSMC             | 1.2.0       | SMC chip emulation                       |
+| VirtualSMC             | 1.2.4       | SMC chip emulation                       |
 | VoodooRMI              | 1.3.3       | Trackpad driver                          |
 | VoodooSMBUS            | 3.2         | SMBUS driver                             |
 | VoodooPS2Controller    | 2.2.1       | Enable keyboard                          |
