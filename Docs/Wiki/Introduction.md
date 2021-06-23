@@ -1,7 +1,4 @@
-# Home
-
 # Where to Start
----
 
 When starting with Hackintoshing the best place to start your build would undoubtedly be [Dortania](https://dortania.github.io). Everything there has been well documented, each and every quirk has been throughly explained and still if you are facing issues, I would recommend to re-read the entire documentation or search for relevant terms. If you still don't get it, then you can always head over to these discord servers for further help and clarification - 
 
