@@ -49,10 +49,9 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | ---------------------- | ----------- | ---------------------------------------- |
 | AppleALC               | 1.6.1       | Fixes onboard audio                      |
 | Lilu                   | 1.5.3       | Kext patcher                             |
-| SMCBatteryManager      | 1.2.0       | Battery indicator                        |
-| SMCLightSensor         | 1.2.0       | Ambient light sensor                     |
-| SMCProcessor           | 1.2.0       | CPU temp monitoring                      |
-| SMCSuperIO             | 1.2.0       | Monitor fan speed, not working           |
+| SMCBatteryManager      | 1.2.4       | Battery indicator                        |
+| SMCProcessor           | 1.2.4       | CPU temp monitoring                      |
+| SMCSuperIO             | 1.2.4       | Monitor fan speed, not working           |
 | VirtualSMC             | 1.2.4       | SMC chip emulation                       |
 | VoodooRMI              | 1.3.3       | Trackpad driver                          |
 | VoodooSMBUS            | 3.2         | SMBUS driver                             |
