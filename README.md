@@ -56,8 +56,8 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | VoodooRMI              | 1.3.3       | Trackpad driver                          |
 | VoodooSMBUS            | 3.2         | SMBUS driver                             |
 | VoodooPS2Controller    | 2.2.1       | Enable keyboard                          |
-| WhateverGreen          | 1.4.7       | Graphics                                 |
-| RealtekRTL8111         | 1.6.6       | Ethernet                                 |
+| WhateverGreen          | 1.5.0       | Graphics                                 |
+| RealtekRTL8111         | 2.4.2       | Ethernet                                 |
 | BrightnessKeys         | 1.0.1       | Fixes Brighness function keys            | 
 
 ## ACPI patches
