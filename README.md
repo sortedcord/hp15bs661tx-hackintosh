@@ -47,7 +47,7 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 
 | Kext                   | Version     | Remark                                   |
 | ---------------------- | ----------- | ---------------------------------------- |
-| AppleALC               | 1.5.7       | Fixes onboard audio                      |
+| AppleALC               | 1.6.1       | Fixes onboard audio                      |
 | Lilu                   | 1.5.1       | Kext patcher                             |
 | SMCBatteryManager      | 1.2.0       | Battery indicator                        |
 | SMCLightSensor         | 1.2.0       | Ambient light sensor                     |
