@@ -54,8 +54,8 @@ As of now I think the EFI is almost complete except for a few things like DRM an
 | SMCSuperIO             | 1.2.4       | Monitor fan speed, not working           |
 | VirtualSMC             | 1.2.4       | SMC chip emulation                       |
 | VoodooRMI              | 1.3.3       | Trackpad driver                          |
-| VoodooSMBUS            | 3.2         | SMBUS driver                             |
-| VoodooPS2Controller    | 2.2.1       | Enable keyboard                          |
+| VoodooSMBUS            | 1.3.3         | SMBUS driver                             |
+| VoodooPS2Controller    | 2.2.3       | Enable keyboard                          |
 | WhateverGreen          | 1.5.0       | Graphics                                 |
 | RealtekRTL8111         | 2.4.2       | Ethernet                                 |
 | BrightnessKeys         | 1.0.2       | Fixes Brighness function keys            | 
