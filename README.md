@@ -86,7 +86,7 @@ All of the following SSDT's have been manually compiled by me such that they imp
 - [x] Mac-like booting interface for multiboot
 - [x] Sleep/wake
 - [x] Trackpad and gestures
-- [x] HDMI video and audio up to 4k
+- [x] HDMI video up to 4k (Audio does not work)
 - [x] Brightness keys without pressing `fn` key
 
 
