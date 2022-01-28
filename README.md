@@ -1,6 +1,12 @@
 # Hp 15bs661tx Opencore EFI [Mojave - Big Sur]
 ![Hp Latpop Snapshot](https://github.com/sortedcord/hp15bs661tx-hackintosh/blob/master/Docs/HP-Image.png)
 
+<b>This repository will no longer be maintained by me as my laptop is no longer usable for hackintoshing. Kindly, do not install any BIOS updates from Windows as it messes up your ECs and it may even disable the roll-back functionality of the BIOS. I made the mistake of doing so and now MacOS will refuse to boot up. Feel free to continue its updates by forking this repository
+  
+Thanks
+</b>
+
+
 ### Where is Opencore 0.7.0?
 
 I was busy with other projects so I couldn't find time to update it. So right now you are stuck with the package I have provided in the releases section, but worry not, I have already started working on it. And instead of simply updating it, I have decided to redo the entire configuration. That would make it less buggy, more efficient and clean.
